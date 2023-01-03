@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+.bg-container{
+   
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    padding: 40px;
+}
+.card{
+    background-image: url("https://ik.imagekit.io/dffgjj8z8/Prioritizing-Cybersecurity-Throughout-All-Web-Development-Sprints_BuwjtH3Ou.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1672742797018");
+    background-size: cover;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+.image{
+    width: 160px;
+    height: 60px;
+    margin-left: 20px;
+}
+.nav-item{
+    text-decoration: none;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 10px;
+    color:rgb(2, 28, 32)
+}
+.nav-item:hover{
+    color:rgb(125, 46, 10)
+}
+.button{
+    width:120px;
+    height: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: rgb(224, 98, 44);
+    border: 0px;
+    color:white;
+    border-radius: 15px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+.main-heading{
+    color:darkslateblue;
+    font-size: 45px;
+    font-family: "Gill Sans", sans-serif;
+}
+.heading{
+    color:rgb(231, 150, 44);
+    font-family: "Gill Sans", sans-serif;
+    font-size: 30px;
+}
+.paragraph{
+    color:rgb(2, 53, 36);
+    font-size: 17px;
+    flex-wrap: wrap;
+    font-family: Open Sans;
+}
+.image2{
+    width:450px;
+    height: 400px;
+    
+}
+.content-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.button1{
+    background-color: #7ab4b9;
+    border: 0px;
+    width:150px;
+    height:40px;
+    border-radius: 20px;
+    color:white;
+    font-weight: 600;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.icon{
+    font-size: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
